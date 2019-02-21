@@ -2,11 +2,6 @@ Bootstrap: debootstrap
 OSVersion: bionic
 MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
-%environment
-	export PATH=/usr/local/bin:$PATH
-	export LC_ALL=C.UTF-8
-	export LANG=C.UTF-8
-	
 %labels
 	Maintainer Jonathan Fresnedo
 	AmpSeq Container
@@ -24,6 +19,9 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 	apt install -y git wget perl openjdk-8-jdk build-essential libtool libncurses5-dev libgtextutils-dev automake libbz2-dev liblzma-dev zlib1g-dev autoconf autogen cpanminus libgd-graph-perl libbio-samtools-perl git-lfs g++ cmake git-all pkg-config sed gnuplot-nox m4 libevent-dev gettext yaggo nano
 	export LC_ALL=C.UTF-8
 	export LANG=C.UTF-8
+	echo 'export LC_ALL=C.UTF-8' >> "$SINGULARITY_ENVIRONMENT"
+	echo 'export LANG=C.UTF-8' >> "$SINGULARITY_ENVIRONMENT"
+	echo "export PATH=/usr/local/bin:$PATH" >> "$SINGULARITY_ENVIRONMENT"
 	make /home
  	cd home
 	git clone https://github.com/samtools/htslib.git
