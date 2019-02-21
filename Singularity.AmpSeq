@@ -4,7 +4,7 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
 %labels
 	Maintainer Jonathan Fresnedo
-	AmpSeq Container
+	AmpSeq Sigularity Container
 
 %post
 	apt update 
