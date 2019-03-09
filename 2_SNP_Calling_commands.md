@@ -4,7 +4,7 @@ cd AmpSeq-Pre/2_SNP_calling/
 ```
 Copying fastq.gz files to be processed through the pipeline
 ```bash
-cp ../Original_Files/P* Files/
+cp ../Original_Files/Pa* Files/ & cp ../Original_Files/Pr* Files/
 ```
 Listing the just-copied files in the directory Files
 ```bash
