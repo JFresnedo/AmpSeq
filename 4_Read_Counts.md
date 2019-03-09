@@ -1,4 +1,4 @@
-Chaginf directory to Read Counts directory
+Chaging directory to Read Counts directory
 ```bash
 cd AmpSeq-Pre/4_Read_Counts/
 ```
