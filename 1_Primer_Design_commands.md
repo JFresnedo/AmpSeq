@@ -1,6 +1,6 @@
 Changing directory to Primer Desing
 ```bash
-cd AmpSeq-Pre/1_Primer_Design/
+cd AmpSeq/1_Primer_Design/
 ```
 Decompressing SAM file
 ```bash
