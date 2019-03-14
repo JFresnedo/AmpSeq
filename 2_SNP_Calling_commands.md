@@ -1,6 +1,6 @@
 Changing directory to SNP calling
 ```bash
-cd AmpSeq-Pre/2_SNP_calling/
+cd AmpSeq/2_SNP_calling/
 ```
 Copying fastq.gz files to be processed through the pipeline
 ```bash
