@@ -1,10 +1,6 @@
 Chaging directory to Read Counts directory
 ```bash
-cd AmpSeq-Pre/4_Read_Counts/
-```
-Copying fastq.gz files files to be processed
-```bash
-cp ../Original_Files/* Files/
+cd AmpSeq/4_Read_Counts/
 ```
 Changing directory to the Files directory
 ```bash
