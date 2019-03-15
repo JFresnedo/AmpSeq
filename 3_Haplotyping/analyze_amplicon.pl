@@ -22,7 +22,7 @@ if (defined $opts{"h"})
 #base commands, default:AmpSeq_Container
 ########################################
 our $trimmomatic_cmd = "java -jar /usr/local/bin/Trimmomatic-0.38/trimmomatic-0.38.jar";
-our $trimmomatic_adapter = "/usr/local/bin/Trimmomatic-0.38/adapters/NexteraSE-SE.fa";
+our $trimmomatic_adapter = "/usr/local/bin/Trimmomatic-0.38/adapters/NexteraPE-PE.fa";
 our $flash_cmd = "flash";
 our $split_cmd = "fastx_barcode_splitter.pl";
 our $collapse_cmd = "fastx_collapser -Q33 ";
