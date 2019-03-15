@@ -1,10 +1,6 @@
 Changing directory to Haplotyping directory
 ```bash
-cd AmpSeq-Pre/3_Haplotyping/
-```
-Copying fast.gz files into the directory to proccess them
-```bash
-cp ../Original_Files/* .
+cd AmpSeq/3_Haplotyping/
 ```
 Executing the routine for haplotyping based on Picard and ClustalOmega (step 8 is skipped, see the wiki for details)
 ```bash
